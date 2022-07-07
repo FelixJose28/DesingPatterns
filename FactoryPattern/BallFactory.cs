@@ -16,7 +16,7 @@ namespace FactoryPattern
         /// <param name="BallType">this condition can be a number or other data type that the user can 
         /// type in the console, for example a number that represent how much money do you have</param>
         /// <returns></returns>
-        public static IBall getBall(string BallType)
+        public static IBall GetBall(string BallType)
         {
             switch (BallType)
             {
