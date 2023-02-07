@@ -1,6 +1,9 @@
 ﻿using BuilderSimplePattern;
 using System;
 
+//builder: contructor muy grande o con mucho parametros. DIrector que le digo que metodo usar de acuerdo a ciertas configurciones por ejemplo (otra opcion es crear clase declarar peropiedades y pasar la clase como el proyecto de OIT cambiar funcionalidad a builder que es la correcta)
+
+
 var userBuilder = new UserBuilder();
 
 var user1 = userBuilder
