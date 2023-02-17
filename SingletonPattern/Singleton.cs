@@ -1,7 +1,4 @@
-﻿
-using System;
-
-namespace SingletonPattern
+﻿namespace SingletonPattern
 {
     public class Singleton
     {

@@ -1,8 +1,10 @@
 ﻿using BuilderSimplePattern;
 using System;
 
-//builder: contructor muy grande o con mucho parametros. DIrector que le digo que metodo usar de acuerdo a ciertas configurciones por ejemplo (otra opcion es crear clase declarar peropiedades y pasar la clase como el proyecto de OIT cambiar funcionalidad a builder que es la correcta)
-
+/*
+ what is: Builder is a creational design pattern that lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+ When use: When you have a big constructor
+ */
 
 var userBuilder = new UserBuilder();
 

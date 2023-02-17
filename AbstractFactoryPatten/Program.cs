@@ -4,11 +4,18 @@ using AbstractFactoryPatten.Modern;
 using AbstractFactoryPatten.Victorian;
 using System;
 
+
+/*
+ what is: is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
+ When use: Use the Abstract Factory when your code needs to work with various families of related products, but you don’t want it to depend on the concrete classes of those products—they might be unknown beforehand or you simply want to allow for future extensibility.
+ */
+
+
 IAbstractFactory gFactory = new GregorianFactory();
 IChair gChair = gFactory.CreateChair();
 ICofeeTable gcofeeTable = gFactory.CreateCofeeTable();
 ISofa gsofa = gFactory.CreateSofa();
-Console.WriteLine(gChair.Legs()) ;
+Console.WriteLine(gChair.Legs());
 Console.WriteLine(gcofeeTable.Legs());
 Console.WriteLine(gsofa.Legs());
 Console.WriteLine();
