@@ -4,18 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FactoryPattern
+namespace Factory
 {
-    public class BasketballBall : IBall
+    public class BaseballBall : IBall
     {
         public int BallSize()
         {
-            return 23;
+            return 10;
         }
 
         public int Pounds()
         {
-            return 11;
+            return 5;
         }
     }
 }

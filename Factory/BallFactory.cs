@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace FactoryPattern
+﻿namespace Factory
 {
     public class BallFactory
     {
@@ -21,9 +15,9 @@ namespace FactoryPattern
             switch (BallType)
             {
                 case BaseballConst:
-                        return new BaseballBall();
+                    return new BaseballBall();
                 case BasketballConst:
-                        return new BasketballBall();
+                    return new BasketballBall();
                 default:
                     return null;
             }
