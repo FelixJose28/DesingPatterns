@@ -8,7 +8,7 @@ using System;
  */
 
 
-var singleton = Singleton.GetInstance;
+Singleton singleton = Singleton.GetInstance;
 Console.WriteLine(singleton.message);
 singleton.message = "modified";
 Console.WriteLine(singleton.message);
