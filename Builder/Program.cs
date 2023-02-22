@@ -1,5 +1,5 @@
-﻿using BuilderPattern.New;
-using BuilderPattern.New.Interfaces;
+﻿using Builder.Interfaces;
+using BuilderPattern.New;
 using System;
 
 /*
