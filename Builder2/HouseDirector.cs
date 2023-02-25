@@ -2,9 +2,7 @@
 {
     internal class HouseDirector
     {
-        public IHouseBuilder HouseBuilder { get; set; }
-
-        public void HouseNormal()
+        public void HouseNormal(IHouseBuilder HouseBuilder)
         {
             HouseBuilder.BuildWalls();
             HouseBuilder.BuildDoors();
@@ -12,7 +10,7 @@
         }
 
 
-        public void HouseWithPool()
+        public void HouseWithPool(IHouseBuilder HouseBuilder)
         {
             HouseBuilder.BuildWalls();
             HouseBuilder.BuildDoors();
