@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strate
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder2", "Builder2\Builder2.csproj", "{A71050CB-285D-4078-A36F-1F8A32DFF40D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeCustomClone", "PrototypeCustomClone\PrototypeCustomClone.csproj", "{4A6CA2B8-B3B7-4E28-A12C-A1A5B9C75A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypeCustomClone", "PrototypeCustomClone\PrototypeCustomClone.csproj", "{4A6CA2B8-B3B7-4E28-A12C-A1A5B9C75A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{A6FE0C9B-73CE-4511-8470-C1CA3932F50C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{4A6CA2B8-B3B7-4E28-A12C-A1A5B9C75A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A6CA2B8-B3B7-4E28-A12C-A1A5B9C75A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A6CA2B8-B3B7-4E28-A12C-A1A5B9C75A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FE0C9B-73CE-4511-8470-C1CA3932F50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FE0C9B-73CE-4511-8470-C1CA3932F50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FE0C9B-73CE-4511-8470-C1CA3932F50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FE0C9B-73CE-4511-8470-C1CA3932F50C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +85,7 @@ Global
 		{59C91431-5F37-45BF-9253-3C11750ED7CC} = {D534391A-3E18-445D-8216-E457EF857F42}
 		{A71050CB-285D-4078-A36F-1F8A32DFF40D} = {9C8A3380-16BD-4BF9-AC09-8A6282E60540}
 		{4A6CA2B8-B3B7-4E28-A12C-A1A5B9C75A4C} = {46AAB12D-3664-4BE0-8FD8-1DDF2F224B9C}
+		{A6FE0C9B-73CE-4511-8470-C1CA3932F50C} = {D534391A-3E18-445D-8216-E457EF857F42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE32EC25-4621-499B-9C1B-46BC604A3E4A}
