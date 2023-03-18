@@ -11,6 +11,7 @@ namespace Observer
 
         //private int _state;
 
+        //In that way yu can subcribe automatically to the subject when is setter 
         //public int State
         //{ 
         //    get 
@@ -20,6 +21,7 @@ namespace Observer
         //    set 
         //    {
         //        _state = value;
+        //
         //        Notify();
         //    } 
         //}
